@@ -1,0 +1,22 @@
+To install the maven..
+
+   we need java 
+      openjdk and openjdk-dev
+	  
+   Then need to download the maven packages from the apache official website
+   
+     wget https://mirrors.estointernet.in/apache/maven/maven-3/3.8.1/binaries/apache-maven-3.8.1-bin.tar.gz
+	 
+   The extract the file
+   
+      tar -xf apache-maven*
+	  
+   Then set the path variable
+   
+      export MAVEN_HOME=/opt/apache-maven-3.8.1/bin
+	  export PATH=$PATH:$MAVEN_HOME/bin
+	  
+Then check the maven version
+
+      mvn --version
+	  

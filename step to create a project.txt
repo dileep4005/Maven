@@ -1,0 +1,19 @@
+My first project
+
+   mvn -B archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4
+   
+   mvn compile
+   
+   mvn test
+   
+    mvn test-compile
+	
+	mvn package
+	
+	mvn install
+	
+	mvn site
+	
+	mvn clean
+	
+	
